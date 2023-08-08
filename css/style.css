@@ -324,6 +324,10 @@ a.active {
     height: 40vh;
 }
 
+.homebox {
+    display:flex;
+
+}
 
 /* about section
 ==================================================*/
@@ -791,12 +795,39 @@ fieldset {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
     }
+    h5 {
+        margin-left:0px;
+    }
+    #home {
+        background: url(../img/home-bg-2.jpg) no-repeat ;
+        background-position-x: 1900%;
+        background-size: cover;
+        height: 100vh;
+    }
+    .table-cell {
+        width: 45vw;
+    }
 }
 
 @media (max-width: 768px) {
     .timeline-event-copy {
         width: 90%;
         left: 2em;
+    }
+    #home {
+        background: url(../img/home-bg-2.jpg) no-repeat ;
+        background-position-x: 1500%;
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 600px) {
+    #home {
+        background: url(../img/home-bg-2.jpg) no-repeat ;
+        background-position-x: 1000%;
+        background-size: cover;
+        height: 100vh;
     }
 }
 
@@ -807,9 +838,19 @@ fieldset {
         line-height: 50px;
     }
     #home,
-    .disply-table {
-        height: 600px;
+    #home {
+        background: url(../img/home-bg-2.jpg) no-repeat ;
+        background-position-x: 2000%;
+        background-size: cover;
+        height: 100vh;
     }
+    .disply-table {
+        
+    }
+    .disply-table2 {
+        height: 40vh;
+    }
+    
     .about-border {
         width: 265px;
     }
@@ -821,9 +862,18 @@ fieldset {
 
 @media (max-width: 420px) {
     nav li {
-        margin: 6px;
+        margin: px;
     }
     nav li a {
         font-size: 10px;
+    }
+    header {
+        height: 100px;
+    }
+}
+
+@media (max-width: 380px) {
+    #home {
+        background-position-x: 1400%;
     }
 }
