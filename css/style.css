@@ -840,7 +840,7 @@ fieldset {
     #home,
     #home {
         background: url(../img/home-bg-2.jpg) no-repeat ;
-        background-position-x: 2000%;
+        background-position-x: 1300%;
         background-size: cover;
         height: 100vh;
     }
